@@ -733,7 +733,7 @@
      height: 100vh;
 }
  .slides-navigation a {
-     background: #95ca39;
+     background: none;
      position: absolute;
      height: 70px;
      width: 70px;
