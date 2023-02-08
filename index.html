@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Meta para mobiles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Meta de la web -->
+    <title>Freshshop - Ecommerce Bootstrap 4 HTML Template</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Iconos -->
+    <link href="images/mercatremol.ico" type="image/x-icon">
+    <link href="images/mercatremolcompacto.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <!-- Inicio Barra Superior -->
+    <div class="main-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="our-link">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-user s_color"></i> PERFIL</a></li>
+                            <li><a href="#"><i class="fas fa-location-arrow"></i> ENCUÉNTRANOS</a></li>
+                            <li><a href="#"><i class="fas fa-headset"></i> CONTÁCTANOS</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="login-box">
+						<select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
+							<option>Registrarme</option>
+							<option>Iniciar Sesión</option>
+						</select>
+					</div>
+                    <!-- NOTICIAS-->
+                    <div class="text-slid-box">
+                        <div id="offer-box" class="carouselTicker">
+                            <ul class="offer-box">
+                                <li>
+                                    <i class="fab fa-opencart"></i> ¡Promoción del 10% en todas nuestras verduras!
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Utiliza el código: "Mercatremol" para ganar descuentos.
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Invita a un amigo para conseguir un descuento del 50% en tu compra.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Final Barra Superior -->
+
+    <!-- Inicio Header -->
+    <header class="main-header">
+        <!-- Inicio Nav -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logopagina.png" class="logo" alt=""></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="nav-item active"><a class="nav-link" href="#">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="shop.html">Tienda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact-us.html">Contáctanos</a></li>
+                    </ul>
+                </div>
+                <div class="attr-nav">
+                    <ul>
+                        <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li class="side-menu">
+							<a href="#">
+								<i class="fa fa-shopping-bag"></i>
+								<span class="badge">3</span>
+								<p>Carrito</p>
+							</a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Inicio del menú lateral -->
+            <div class="side">
+                <a href="#" class="close-side"><i class="fa fa-times"></i></a>
+                <li class="cart-box">
+                    <ul class="cart-list">
+                        <li>
+                            <a href="#" class="photo"><img src="images/img-pro-01.jpg" class="cart-thumb" alt="" /></a>
+                            <h6><a href="#">Delica omtantur </a></h6>
+                            <p>1x - <span class="price">80.00 €</span></p>
+                        </li>
+                        <li>
+                            <a href="#" class="photo"><img src="images/img-pro-02.jpg" class="cart-thumb" alt="" /></a>
+                            <h6><a href="#">Omnes ocurreret</a></h6>
+                            <p>1x - <span class="price">$60.00</span></p>
+                        </li>
+                        <li>
+                            <a href="#" class="photo"><img src="images/img-pro-03.jpg" class="cart-thumb" alt="" /></a>
+                            <h6><a href="#">Agam facilisis</a></h6>
+                            <p>1x - <span class="price">$40.00</span></p>
+                        </li>
+                        <li class="total">
+                            <a href="#" class="btn btn-default hvr-hover btn-cart">Ver Carrito</a>
+                            <span class="float-right"><strong>Total</strong>: $180.00</span>
+                        </li>
+                    </ul>
+                </li>
+            </div>
+            <!-- Fin del menú lateral -->
+        </nav>
+        <!-- Fin Nav -->
+    </header>
+    <!-- Fin Header -->
+
+    <!-- Inicio Buscador Top -->
+    <div class="top-search">
+        <div class="container">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                <input type="text" class="form-control" placeholder="Search">
+                <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+            </div>
+        </div>
+    </div>
+    <!-- Fin Buscador Top -->
+
+    <!-- Inicio Slider -->
+    <div id="slides-shop" class="cover-slides">
+        <ul class="slides-container">
+            <li class="text-center">
+                <img src="images/banner-01.jpg" alt="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="m-b-20"><strong>Bienvenido a <br> Mercatremol</strong></h1>
+                            <p class="m-b-40">Compra con nosotros y apuesta por un consumo responsable. <br>
+                            Apoya el comercio local con cada compra y disfruta de productos saludables.</p>
+                            <p><a class="btn hvr-hover" href="shop.html">Comenzar</a></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="text-center">
+                <img src="images/banner-02.jpg" alt="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="m-b-20"><strong>Comienza a comprar y <br> apoya el comercio local</strong></h1>
+                            <p class="m-b-40">En Mercatrèmol apostamos por las pequeñas y medianas producciones ecológicas locales <br>
+                                y por lo tanto son nuestra prioridad a la hora de abastecer nuestra despensa.
+                            <p><a class="btn hvr-hover" href="shop.html">Compra ahora</a></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="text-center">
+                <img src="images/banner-03.jpg" alt="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="m-b-20"><strong>Encuentra productos <br> saludables y naturales</strong></h1>
+                            <p class="m-b-40">Si te preocupa la salud y quieres contribuir a construir un mundo más justo y respetuoso con nuestro planeta <br> ven a visitarnos y asóciate practica un consumo responsable y la Soberanía Alimentaria</p>
+                            <p><a class="btn hvr-hover" href="shop.html">Buscar productos</a></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="slides-navigation">
+            <a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            <a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <!-- Final Slider -->
+
+    <!-- Inicio Categorias  -->
+    <div class="categories-shop">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="shop-cat-box">
+                        <img class="img-fluid" src="images/carne.jpg" alt="" />
+                        <a class="btn hvr-hover" href="#">Carne</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="shop-cat-box">
+                        <img class="img-fluid" src="images/categories_img_02.jpg" alt="" />
+                        <a class="btn hvr-hover" href="#">Frutas</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="shop-cat-box">
+                        <img class="img-fluid" src="images/categories_img_03.jpg" alt="" />
+                        <a class="btn hvr-hover" href="#">Verduras</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Final Categorias -->
+    <!-- Inicio Productos  -->
+    <div class="products-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-all text-center">
+                        <h1>Nuestros productos</h1>
+                        <p>Encuentra dentro de nuestro catálogo desde frutas frescas hasta la mejor carne de la zona.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="special-menu text-center">
+                        <div class="button-group filter-button-group">
+                            <button class="active" data-filter="*">Todos</button>
+                            <button data-filter=".top-featured">Mejor valorados</button>
+                            <button data-filter=".best-seller">Más vendidos</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row special-list">
+                <div class="col-lg-3 col-md-6 special-grid best-seller">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">
+                            <div class="type-lb">
+                                <p class="sale">Descuento</p>
+                            </div>
+                            <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
+                            <div class="mask-icon">
+                                <a class="cart" href="#">Añadir al carrito</a>
+                            </div>
+                        </div>
+                        <div class="why-text">
+                            <h4>Zanahorias</h4>
+                            <h5>2.49 €</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 special-grid top-featured">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">
+                            <div class="type-lb">
+                                <p class="new">Nuevo</p>
+                            </div>
+                            <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
+                            <div class="mask-icon">
+                                <a class="cart" href="#">Añadir al carrito</a>
+                            </div>
+                        </div>
+                        <div class="why-text">
+                            <h4>Tomate Cherry</h4>
+                            <h5>2.99 €</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 special-grid top-featured">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">
+                            <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image">
+                            <div class="mask-icon">
+                                <a class="cart" href="#">Añadir al carrito</a>
+                            </div>
+                        </div>
+                        <div class="why-text">
+                            <h4>Aceitunas</h4>
+                            <h5>1.65 €</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 special-grid best-seller">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">
+                            <div class="type-lb">
+                                <p class="sale">Descuento</p>
+                            </div>
+                            <img src="images/img-pro-04.jpg" class="img-fluid" alt="Image">
+                            <div class="mask-icon">
+                                <a class="cart" href="#">Añadir al carrito</a>
+                            </div>
+                        </div>
+                        <div class="why-text">
+                            <h4>Papaya</h4>
+                            <h5>4.70 €</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Final Productos  -->
+
+    <!-- Inicio Blog  -->
+    <div class="latest-blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-all text-center">
+                        <h1>latest blog</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 col-xl-4">
+                    <div class="blog-box">
+                        <div class="blog-img">
+                            <img class="img-fluid" src="images/blog-img.jpg" alt="" />
+                        </div>
+                        <div class="blog-content">
+                            <div class="title-blog">
+                                <h3>Fusce in augue non nisi fringilla</h3>
+                                <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-4">
+                    <div class="blog-box">
+                        <div class="blog-img">
+                            <img class="img-fluid" src="images/blog-img-01.jpg" alt="" />
+                        </div>
+                        <div class="blog-content">
+                            <div class="title-blog">
+                                <h3>Fusce in augue non nisi fringilla</h3>
+                                <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-4">
+                    <div class="blog-box">
+                        <div class="blog-img">
+                            <img class="img-fluid" src="images/blog-img-02.jpg" alt="" />
+                        </div>
+                        <div class="blog-content">
+                            <div class="title-blog">
+                                <h3>Fusce in augue non nisi fringilla</h3>
+                                <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Final Blog  -->
+
+    <!-- Inicio Footer  -->
+    <footer>
+        <div class="footer-main">
+            <div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-link-contact">
+                            <h4>Horario</h4>
+                            <table class="table-bordered text-center tabl">
+                                <tr>
+                                    <th></th><th> MAÑANA </th><th>  TARDE  </th>
+                                </tr>
+                                <tr>
+                                    <th>LUNES</th><td>10h a 14h</td><td>Cerrado</td>
+                                </tr>
+                                <tr>
+                                    <th>MARTES</th><td>Abierto para voluntarios</td><td>17h a 20h</td>
+                                </tr>
+                                <tr>
+                                    <th>MIÉRCOLES</th><td>10h</td><td>20h</td>
+                                </tr>
+                                <tr>
+                                    <th>JUEVES</th><td>10h a 14h</td><td>17h a 20h</td>
+                                </tr>
+                                <tr>
+                                    <th>VIERNES</th><td>10h a 14h</td><td>17h a 20h</td>
+                                </tr>
+                                <tr>
+                                    <th>SÁBADO</th><td>10h a 14h</td><td>Cerrado</td>
+                                </tr>
+                                <tr>
+                                    <th>DOMINGO</th><td>Cerrado</td><td>Cerrado</td>
+                                </tr>
+                            </table>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-link-contact">
+                            <h4>Noticias</h4>
+							<form class="newsletter-box">
+								<div class="form-group">
+									<input class="" type="email" name="Email" placeholder="Dirección de email*" />
+									<i class="fa fa-envelope"></i>
+								</div>
+								<button class="btn hvr-hover" type="submit">Enviar</button>
+							</form>
+						</div>
+					</div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-link-contact">
+                            <h4>Contáctanos</h4>
+                            <ul>
+                                <li>
+                                    <p><i class="fas fa-map-marker-alt"></i>Dirección: Michael I. Days 3756 <br>Preston Street Wichita,<br> KS 67213 </p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-phone-square"></i>Teléfono: <a href="tel:+1-888705770">+11 111 11 11 11</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-envelope"></i>Email: <a href="mailto:contactinfo@gmail.com">mercatremol@gmail.com</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+				</div>
+            </div>
+        </div>
+    </footer>
+    <!-- Final Footer  -->
+
+    <!-- Inicio copyright  -->
+    <div class="footer-copyright">
+        <p class="footer-company">Todos los derechos reservados. &copy; 2023 <a href="#">Mercatremol</a> <br>
+            Diseñado por: <a href="hectorpascualmarin.com">Héctor Pascual Marín</a></p>
+    </div>
+    <!-- Fin copyright  -->
+
+    <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+
+    <!-- ARCHIVOS JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- PLUGINS -->
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/inewsticker.js"></script>
+    <script src="js/bootsnav.js."></script>
+    <script src="js/images-loded.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/baguetteBox.min.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
