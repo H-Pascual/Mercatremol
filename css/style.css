@@ -748,9 +748,6 @@
  .slides-navigation a i{
      font-size: 40px;
 }
- .slides-navigation a:hover {
-     background: #000000;
-}
  .cover-slides .container{
      height: 100%;
      position: relative;
