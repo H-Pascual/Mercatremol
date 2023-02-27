@@ -1,3 +1,0 @@
-Heroku
-Firebase
-Back4App
